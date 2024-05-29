@@ -5,9 +5,6 @@
     color: white;
     background-color: #352da5;
 }
-.corpotexto {
-    text-align: center;
-}
 .text {
     font-family: "Montserrat";
     text-align: justify;
@@ -18,8 +15,11 @@
 .scrollspy-example {
     margin: 0 5% 0 5%;
 }
-.corpotexto {
+.corpo {
     border-radius: 5px 5px 5px 5px;
     padding: 2%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.corpotexto {
+    text-align: center;
 }
