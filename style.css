@@ -5,9 +5,11 @@
     color: white;
     background-color: #352da5;
 }
+.corpotexto {
+    text-align: center;
+}
 .text {
     font-family: "Montserrat";
-    text-align: center;
     text-align: justify;
 }
 .titulo {
