@@ -1,24 +1,19 @@
 .logo {
     margin-left: 1%;
 }
-.nav-item {
-    color: white;
-    background-color: #352da5;
-}
 .text {
     font-family: "Montserrat";
     text-align: justify;
 }
 .titulo {
+    font-family: "Montserrat";
     text-align: center;
 }
 .scrollspy-example {
     margin: 0 5% 0 5%;
 }
 .corpo {
-    border-radius: 5px 5px 5px 5px;
     padding: 2%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 .corpotexto {
     text-align: center;
@@ -26,4 +21,51 @@
 }
 .img {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    max-width: 80%;
+    max-height: 80%;
 }
+.contexto {
+    font-family: "Montserrat";
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #352da5;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.destacassuntos {
+    padding: 2% 5% 2% 5%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.listabotao {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    gap: 10px;
+}
+.botoes {
+    display: flex;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    border-radius: 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    background: hsla(0, 0%, 100%, .15);
+}
+.botoes:hover {
+    background-color: hsla(0, 0%, 100%, 0.274);
+  }
